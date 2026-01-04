@@ -1,5 +1,5 @@
 {
   "name": "BBT-CCV",
   "image": "mcr.microsoft.com/devcontainers/python:3.11",
-  "postCreateCommand": "curl -L -o credit_card_validator.pyc https://raw.githubusercontent.com/YOURNAME/ccv_blackbox_dist/main/credit_card_validator.pyc && pip install pytest"
+  "postCreateCommand": "curl -L -o credit_card_validator.pyc https://raw.githubusercontent.com/WT-WECIB/ccv_blackbox_dist/main/credit_card_validator.pyc && pip install pytest"
 }
